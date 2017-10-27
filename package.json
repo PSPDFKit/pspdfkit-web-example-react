@@ -1,0 +1,22 @@
+{
+  "name": "example-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.15"
+  },
+  "scripts": {
+    "do-prepare": "node scripts/verify-install.js && node scripts/copy-pspdfkit-files.js",
+    "prestart": "npm run do-prepare",
+    "start": "cross-env REACT_APP_PSPDFKIT_KEY='YOUR_LICENSE_KEY_GOES_HERE' react-scripts start",
+    "prebuild": "npm run do-prepare",
+    "build": "cross-env REACT_APP_PSPDFKIT_KEY='YOUR_LICENSE_KEY_GOES_HERE' react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.1"
+  }
+}
