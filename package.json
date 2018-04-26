@@ -1,11 +1,27 @@
 {
-  "name": "example-react",
-  "version": "0.1.0",
-  "private": true,
+  "name": "pspdfkit-web-example-react",
+  "version": "2018.2.0",
+  "description": "Standalone and offline PDF viewer web application built with PSPDFKit for Web and React",
+  "keywords": [
+    "wasm",
+    "web",
+    "assembly",
+    "pdf",
+    "pdf",
+    "viewer",
+    "react",
+    "asm.js",
+    "offline",
+    "indexeddb"
+  ],
+  "author": "PSPDFKit (https://pspdfkit.com)",
+  "homepage": "https://pspdfkit.com/web",
+  "license": "SEE LICENSE IN https://pspdfkit.com/license.pdf",
+  "readme": "https://pspdfkit.com/guides/web",
   "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.15"
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "do-prepare": "node scripts/verify-install.js && node scripts/copy-pspdfkit-files.js",
@@ -17,6 +33,9 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "cross-env": "^5.1.1"
+    "cross-env": "^5.1.4"
+  },
+  "resolutions": {
+    "mime": "^1.6.0"
   }
 }

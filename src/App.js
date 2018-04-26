@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import PSPDFKit from './components/pspsdfkit'
+import PSPDFKit from './components/pspdfkit'
 import './App.css'
 
 if (!process.env.REACT_APP_PSPDFKIT_KEY.trim() || process.env.REACT_APP_PSPDFKIT_KEY === 'YOUR_LICENSE_KEY_GOES_HERE') {
-  throw new Error(`No PSPSDFKit license key found.
+  throw new Error(`No PSPDFKit license key found.
 Please open package.json and assign it to REACT_APP_PSPDFKIT_KEY
 
 Example:

@@ -41,8 +41,8 @@ Enjoy 🍕
 
 ### React component
 
-The React component which implements the PSPDFKit for Web integration can be found at `src/components/pspsdfkit/index.js`.
+The React component which implements the PSPDFKit for Web integration can be found at `src/components/pspdfkit/index.js`.
 
 To run this example via Create React App we also had to configure the `baseUrl` that PSPDFKit for Web uses to load its artifacts and base css. Please take a look at `src/App.js`.
 
-In order to make the files above available we had to copy them from the `node_modules/pspsdfkit/dist` folder using a script which you can find at `scripts/copy-pspdfkit-files.js`.
+In order to make the files above available we had to copy them from the `node_modules/pspdfkit/dist` folder using a script which you can find at `scripts/copy-pspdfkit-files.js`.
