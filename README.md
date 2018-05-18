@@ -1,14 +1,18 @@
-This is an example project for PSPDFKit for Web and how to embed it into a react app.
+# PSPDFKit for Web Example – React
 
-First, get a trial license on https://pspdfkit.com/try/.
+This example shows how to integrate [PSPDFKit for Web](https://pspdfkit.com/web/) into a React app.
 
+## Request a License
 
-### Setup
+You'll need a license for PSPDFKit for Web. If you don't already have one
+you can [request a free trial here](https://pspdfkit.com/try/).
+
+## Setup
 
 Install the `pspdfkit` npm package.
 
 ```bash
-npm install --save https://customers.pspdfkit.com/npm/TRIAL-npm-url-received-via-email
+npm install --save https://customers.pspdfkit.com/npm/YOUR_NPM_KEY_GOES_HERE
 ```
 
 Bootstrap the project by installing all the other dependencies. In this example we use Create React App.
@@ -17,13 +21,17 @@ Bootstrap the project by installing all the other dependencies. In this example 
 npm install
 ```
 
-Now that everything is installed let's define the PSPDFKit for Web LICENSE KEY.
+## Configure
 
-Open up the `package.json` file from this repo, find and replace all the occurrencies of `YOUR_LICENSE_KEY_GOES_HERE` with the license key that you received via e-mail.
+Now that everything is installed we need to configure the app to use our [PSPDFKit for Web license key](#request-a-license).
 
-Done, we are ready to launch the app! 🎉
+Open up the `package.json` file from this repo, find and replace all the occurrences of `YOUR_LICENSE_KEY_GOES_HERE` with the license key that you received via e-mail.
 
-To run the app in development mode run:
+## Run
+
+Now we're ready to run the app! 🎉
+
+To run the app in development mode:
 
 ```bash
 npm run start
@@ -39,7 +47,7 @@ serve -s build
 Enjoy 🍕
 
 
-### React component
+## React Component
 
 The React component which implements the PSPDFKit for Web integration can be found at `src/components/pspdfkit/index.js`.
 
