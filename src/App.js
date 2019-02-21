@@ -6,7 +6,7 @@ const LICENSE_KEY =
   process.env.REACT_APP_PSPDFKIT_LICENSE_KEY &&
   process.env.REACT_APP_PSPDFKIT_LICENSE_KEY.trim();
 
-if (!LICENSE_KEY || LICENSE_KEY === "YOUR_LICENSE_KEY_GOES_HERE") {
+if (!LICENSE_KEY || LICENSE_KEY !== "YOUR_LICENSE_KEY_GOES_HERE") {
   throw new Error(`No or invalid PSPDFKit license key found.
 Please open package.json and assign it to REACT_APP_PSPDFKIT_LICENSE_KEY.
 
