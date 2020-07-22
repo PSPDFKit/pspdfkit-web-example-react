@@ -1,0 +1,40 @@
+{
+  "name": "pspdfkit-web-example-react",
+  "version": "2020.4.1",
+  "description": "Standalone and offline PDF viewer web application built with PSPDFKit for Web and React",
+  "keywords": [
+    "wasm",
+    "web",
+    "assembly",
+    "pdf",
+    "pdf",
+    "viewer",
+    "react",
+    "asm.js",
+    "offline",
+    "indexeddb"
+  ],
+  "author": "PSPDFKit (https://pspdfkit.com)",
+  "homepage": "https://pspdfkit.com/web",
+  "license": "SEE LICENSE IN https://pspdfkit.com/legal/License.pdf",
+  "readme": "https://pspdfkit.com/guides/web",
+  "dependencies": {
+    "pspdfkit": "2020.4.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "verify-installation": "node scripts/verify-install.js && node scripts/copy-pspdfkit-files.js",
+    "prestart": "npm run verify-installation",
+    "start": "cross-env REACT_APP_PSPDFKIT_LICENSE_KEY='YOUR_LICENSE_KEY_GOES_HERE' react-scripts start",
+    "prebuild": "npm run verify-installation",
+    "build": "cross-env REACT_APP_PSPDFKIT_LICENSE_KEY='YOUR_LICENSE_KEY_GOES_HERE' react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "ncp": "^2.0.0"
+  }
+}
