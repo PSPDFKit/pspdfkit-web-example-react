@@ -8415,10 +8415,10 @@ psl@^1.1.28:
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
   integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
 
-pspdfkit@2021.4.0:
-  version "2021.4.0"
-  resolved "https://registry.yarnpkg.com/pspdfkit/-/pspdfkit-2021.4.0.tgz#fa4a4ae77a399305503162e55ec08d65bb86d5c5"
-  integrity sha512-whI1nlpB+0UIRYH8tYTO/ugI+HhcIaksb/C9yL6nqjibZw4QAPYnjYm1eAXLU7AP0JZufQHuYwheB4G2lskmPw==
+pspdfkit@2021.5.1:
+  version "2021.5.1"
+  resolved "https://registry.yarnpkg.com/pspdfkit/-/pspdfkit-2021.5.1.tgz#f8523392bb5392b52236cf53f97ce60ce2792437"
+  integrity sha512-RjfEvD/piOiNtDLm/6odgCqHF7Mk2ZYYezA8uCZs5z1vJvXZOA4PyEHMlNx4WgJCVD55DOcGEkS1mp0t6wGI/g==
 
 public-encrypt@^4.0.0:
   version "4.0.3"
@@ -10238,9 +10238,9 @@ url-loader@2.3.0:
     schema-utils "^2.5.0"
 
 url-parse@^1.4.3:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
-  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.3.tgz#71c1303d38fb6639ade183c2992c8cc0686df862"
+  integrity sha512-IIORyIQD9rvj0A4CLWsHkBBJuNqWpFQe224b6j9t/ABmquIS0qDU2pY6kl6AuOrL5OkCXHMCFNe1jBcuAggjvQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
