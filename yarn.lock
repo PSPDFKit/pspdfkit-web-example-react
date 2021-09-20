@@ -8415,10 +8415,10 @@ psl@^1.1.28:
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
   integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
 
-pspdfkit@2021.4.0:
-  version "2021.4.0"
-  resolved "https://registry.yarnpkg.com/pspdfkit/-/pspdfkit-2021.4.0.tgz#fa4a4ae77a399305503162e55ec08d65bb86d5c5"
-  integrity sha512-whI1nlpB+0UIRYH8tYTO/ugI+HhcIaksb/C9yL6nqjibZw4QAPYnjYm1eAXLU7AP0JZufQHuYwheB4G2lskmPw==
+pspdfkit@2021.5.3:
+  version "2021.5.3"
+  resolved "https://registry.yarnpkg.com/pspdfkit/-/pspdfkit-2021.5.3.tgz#57806d53b3b1e4e3e1d8451d467cf47072d6e584"
+  integrity sha512-lwuAzsnJXnjWrUVcGEvQ4/vbfWidctVHyqpBjClhIB9rK2/CuLZ3oSsgL00rXitROkKOGPWtu3NhP6UCMYXoBA==
 
 public-encrypt@^4.0.0:
   version "4.0.3"
@@ -9971,9 +9971,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
