@@ -1,0 +1,51 @@
+{
+  "name": "pspdfkit-web-example-react",
+  "version": "2021.4.1",
+  "description": "Standalone and offline PDF viewer web application built with PSPDFKit for Web and React",
+  "keywords": [
+    "wasm",
+    "web",
+    "assembly",
+    "pdf",
+    "pdf",
+    "viewer",
+    "react",
+    "asm.js",
+    "offline",
+    "indexeddb"
+  ],
+  "author": "PSPDFKit (https://pspdfkit.com)",
+  "homepage": "https://pspdfkit.com",
+  "license": "SEE LICENSE IN https://pspdfkit.com/legal/License.pdf",
+  "readme": "https://pspdfkit.com/guides/web",
+  "dependencies": {
+    "pspdfkit": "2021.6.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  },
+  "scripts": {
+    "verify-installation": "node scripts/verify-install.js && node scripts/copy-pspdfkit-files.js",
+    "prestart": "npm run verify-installation",
+    "start": "cross-env react-scripts start",
+    "prebuild": "npm run verify-installation",
+    "build": "cross-env react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "ncp": "^2.0.0"
+  },
+  "browserslist": [
+    "Firefox ESR",
+    "IE 11",
+    "edge 18",
+    "last 2 Chrome versions",
+    "last 2 firefox versions",
+    "last 2 edge versions",
+    "last 2 safari versions",
+    "last 2 and_chr versions",
+    "last 2 ios_saf versions"
+  ]
+}
